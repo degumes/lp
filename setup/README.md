@@ -32,7 +32,7 @@ $ git pull origin master
 Git é um gerenciador de versões para seus códigos. Ele pode te ajudar nos [CTRL+Zs e backups](https://git-scm.com/book/pt-br/v1/Primeiros-passos).
 
 ## testando
-Na pasta 'setup' você irá encontrar alguns códigos para testar sem ambiente. Um dos arquivos é o "nada.c":
+Nesta pasta 'setup' você irá encontrar alguns códigos para testar sem ambiente. Um dos arquivos é o "nada.c":
 ```c
 int main(){
     return 0;

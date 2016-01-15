@@ -3,4 +3,4 @@
 Repositório de códigos da monitoria. Trabalhos, exemplos e exercícios serão postados aqui.
 
 ## Menu
-* [Setup](https://github.com/degumes/lp/setup/README.md)
+* [Setup](https://github.com/degumes/lp/tree/master/setup)
