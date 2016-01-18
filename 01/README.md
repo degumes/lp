@@ -76,7 +76,7 @@ int main(){
 }
 ```
 
-A variável local `existe` é herdada pelas funções internas, ela não é passada como argumento. Ela é primeira declarada e depois definida, enquanto que as funções `imprimeIN` e `imprimeOUT` são declaradas e definidas ao mesmo tempo.
+A variável local `existe` é herdada pelas funções, ela não é passada como argumento. Ela é primeira declarada e depois definida, enquanto que as funções `imprimeIN` e `imprimeOUT` são declaradas e definidas ao mesmo tempo.
 
 O estilo adotado no exemplo anterior pode causas dificuldades na leitura em
 programas maiores, recomenda-se deixar as declarações das funções, estruturas e
