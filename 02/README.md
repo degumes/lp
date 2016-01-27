@@ -41,9 +41,11 @@ int main(){
 }
 ```
 A segunda leitura serve apenas para dar tempo pro usuário ler o menu, senão iria
- voltar pro loop while e o `system("clear")` apagaria a mensagem. O espaço antes
- do `%c` no `scanf` é importante, exige que a entrada seja formada lendo apenas
- o caractere no final de um espaço ou equivalente. Experimente retirar o clear e o espaço de um da  cada vez e depois dos dois pra ver como o algoritmo reage.
+voltar pro loop while e o `system("clear")` apagaria a mensagem. O espaço antes
+do `%c` no `scanf` é importante, exige que a entrada seja formada lendo apenas o
+caractere no final de um espaço ou equivalente. Experimente retirar o clear para
+monitorar todos os passos e depois o espaço alternadamente, depois dos dois pra
+ver como o algoritmo reage.
 
 * [FAQ stdio](http://c-faq.com/stdio/index.html)
 * [NCurses](https://www.gnu.org/software/ncurses/)
