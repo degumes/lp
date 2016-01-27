@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "c.h"
-//#include "bhaska.h"
+#include "bhaska.h"
 
 int main(){
     char menuSwitch = 'm';
@@ -19,7 +19,7 @@ int main(){
                 c();
                 break;
             case 'b':
-				//baska();
+				bhaska();
                 break;
         }
     }
