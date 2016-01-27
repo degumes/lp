@@ -24,7 +24,7 @@ funções trigonométricas, para compilar corretamente inclua o termo `-lm` (L
 minusculo, não 1), desta forma:
 
 ```shell
-$ gcc -Wall -g -lm sources.c -o program.bin
+$ gcc -Wall -Wextra -g -lm sources.c -o program.bin
 ```
 
 # argc \*argv
@@ -34,7 +34,7 @@ vetor com estes argumentos. O primeiro argumento é o próprio nome do executáv
 
 Por exemplo, o algoritmo `papagaio.c` repete todos os argumentos enviados para ele, suponha que você tenha compilado e executado desta forma:
 ```shell
-$ gcc -Wall -g papagaio.c -o papagaio.bin
+$ gcc -Wall -Wextra -g papagaio.c -o papagaio.bin
 
 $ ./papagaio.bin vamos passear?
 vamos passear?
