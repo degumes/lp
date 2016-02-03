@@ -28,6 +28,6 @@ void bhaska(){
 		printf("x1 é %f + i * %f\n",-b/2/a,rd/2/a );
 		printf("x2 é %f - i * %f\n",-b/2/a,rd/2/a );
 	}
-	printf("\nq para sain\n");
+	printf("\nq para sair\n");
 	scanf(" %c",&pedeTempo);
 }
