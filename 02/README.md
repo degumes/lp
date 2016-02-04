@@ -91,6 +91,6 @@ consulta. Javadoc e Doxygen são 2 desses estilos bem difundidos, são compatív
 entre si e conseguem gerar documentos externos contendo as informações sobre as
 funções e estruturas.
 
-*[Doxygen](http://www.stack.nl/~dimitri/doxygen/)
-*[Visual Studio Doxygen](https://visualstudiogallery.msdn.microsoft.com/11a30c1c-593b-4399-a702-f23a56dd8548)
-*[CodeBlocks](http://wiki.codeblocks.org/index.php/DoxyBlocks)
+* [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+* [Visual Studio Doxygen](https://visualstudiogallery.msdn.microsoft.com/11a30c1c-593b-4399-a702-f23a56dd8548)
+* [CodeBlocks](http://wiki.codeblocks.org/index.php/DoxyBlocks)
