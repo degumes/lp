@@ -62,7 +62,8 @@ definidas antes de serem usadas no `main()`, por isso é necessário inseri-las
 pela diretiva `#include`. Estas definições explicitam quais as entradas e saídas
 que devem ser manipuladas.
 
-As definições também dever ser inseridas em algum momento. É possível apenas passar todos os códigos fontes de uma vez:
+As definições também dever ser inseridas em algum momento. É possível apenas
+passar todos os códigos fontes de uma vez:
 ```shell
 $ gcc -lm menu2.c c.c bhaska.c
 ```
@@ -76,3 +77,20 @@ Os arquivos objetos são binários, não são legíveis. A utilidade desse méto
 criar bibliotecas que possam ser distribuídas publicamente sem mostrar o código
 fonte. Você repassa o cabeçalho definido a interface do módulo mas sua
 implementação fica obscurecida.
+
+Separar declaração e definição de variáveis e funções em arquivos externos
+auxilia a leitura organizando melhor o código, num fica a implementação interna
+das funcionalidades, noutro arquivo fica destacado quais os parâmetros e
+retornos que se espera.
+
+# Documentação
+
+Existem vários padrões para se documentar o código fonte, as IDEs tipicamente
+conseguem formatar esses comentários e apresentam funcionalidades de navegação e
+consulta. Javadoc e Doxygen são 2 desses estilos bem difundidos, são compatíveis
+entre si e conseguem gerar documentos externos contendo as informações sobre as
+funções e estruturas.
+
+*[Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+*[Visual Studio Doxygen](https://visualstudiogallery.msdn.microsoft.com/11a30c1c-593b-4399-a702-f23a56dd8548)
+*[CodeBlocks](http://wiki.codeblocks.org/index.php/DoxyBlocks)
