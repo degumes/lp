@@ -62,7 +62,8 @@ definidas antes de serem usadas no `main()`, por isso é necessário inseri-las
 pela diretiva `#include`. Estas definições explicitam quais as entradas e saídas
 que devem ser manipuladas.
 
-As definições também dever ser inseridas em algum momento. É possível apenas passar todos os códigos fontes de uma vez:
+As definições também dever ser inseridas em algum momento. É possível apenas
+passar todos os códigos fontes de uma vez:
 ```shell
 $ gcc -lm menu2.c c.c bhaska.c
 ```
@@ -87,7 +88,8 @@ separados para as classes e interfaces e nestes arquivos existir a documentaçã
 necessária para cada método, atributo e parâmetro. Gradualmente a comunidade C
 também foi adotando esta prática e se mostra bastante eficiente, convenções
 sobre os comentários permitem gerar manuais sobre o código de forma automática e
-algumas IDEs conseguem mostrar essas ajudas enquanto se programa a implementação.
+algumas IDEs conseguem mostrar essas ajudas enquanto se programa a
+implementação, formatar os comentários, auxiliar na navegação e consulta.
 
 [Javadoc ](http://www.oracle.com/technetwork/articles/java/index-jsp-135444.html)
 é uma espécie de processador de comentários dos códigos do JDK para documentação
@@ -99,3 +101,7 @@ um superset:
 Consegue gerar pdf, html, manpage, gráfico das estruturas. Mas o importante,
 mesmo não instalando a ferramenta, seria seguir o padrão de comentário. O
 Javadoc e doxygen são compatíveis e similares.
+
+
+* [Visual Studio Doxygen](https://visualstudiogallery.msdn.microsoft.com/11a30c1c-593b-4399-a702-f23a56dd8548)
+* [CodeBlocks Doxygen](http://wiki.codeblocks.org/index.php/DoxyBlocks)
