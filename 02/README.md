@@ -76,3 +76,26 @@ Os arquivos objetos são binários, não são legíveis. A utilidade desse méto
 criar bibliotecas que possam ser distribuídas publicamente sem mostrar o código
 fonte. Você repassa o cabeçalho definido a interface do módulo mas sua
 implementação fica obscurecida.
+
+`lm` é uma diretiva do gcc para inserir constantes numéricas usadas em operações
+matemáticas. A diretiva `c` diz para apenas compilar, não linkar, gerando o
+código objeto que depois será linkado no `menu2.c`.
+
+# Documentação
+Uma convenção adotada nas linguagens orientadas a objeto é criar arquivos
+separados para as classes e interfaces e nestes arquivos existir a documentação
+necessária para cada método, atributo e parâmetro. Gradualmente a comunidade C
+também foi adotando esta prática e se mostra bastante eficiente, convenções
+sobre os comentários permitem gerar manuais sobre o código de forma automática e
+algumas IDEs conseguem mostrar essas ajudas enquanto se programa a implementação.
+
+[Javadoc ](http://www.oracle.com/technetwork/articles/java/index-jsp-135444.html)
+é uma espécie de processador de comentários dos códigos do JDK para documentação
+, referência e ajuda que está . Para C/C++ e diversas outras linguagens existe
+um superset:
+
+[DOXYGEN](https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html)
+
+Consegue gerar pdf, html, manpage, gráfico das estruturas. Mas o importante,
+mesmo não instalando a ferramenta, seria seguir o padrão de comentário. O
+Javadoc e doxygen são compatíveis e similares.

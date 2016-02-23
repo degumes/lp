@@ -19,9 +19,8 @@ int main(){
                 c();
                 break;
             case 'b':
-				bhaska();
+                bhaska();
                 break;
         }
     }
 }
-
