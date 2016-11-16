@@ -21,7 +21,7 @@ se fosse algo como `"./lib/myBib.h"` ele buscaria o cabeçalho "myBib.h" na past
 
 O `<math.h>` inclui algumas tabelas numéricas pra calcular exponenciais e
 funções trigonométricas, para compilar corretamente inclua o termo `-lm` (L
-minusculo, não 1), desta forma:
+minusculo, não o número 1), desta forma:
 
 ```shell
 $ gcc -Wall -Wextra -g -lm sources.c -o program.bin
@@ -81,7 +81,7 @@ A variável local `existe` é herdada pelas funções, ela não é passada como 
 O estilo adotado no exemplo anterior pode causas dificuldades na leitura em
 programas maiores, recomenda-se deixar as declarações das funções, estruturas e
 tipos, com seus respectivos comentários, antes da função `main`, assim estes
-blocos estão mais destacáveis. Neste caso a variável `existe` também precisa
+blocos estão mais destacávei. Neste caso a variável `existe` também precisa
 passar a ser global para que as funçõe a encontrem.
 
 Mas se as funções forem muito complexas vão existir muitas linhas de código
