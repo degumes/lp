@@ -23,7 +23,7 @@ $ apt-get install geany
 ## github
 Você pode copiar todo o repositório clicando no botão "Download ZIP", ou instalar o git e digitar:
 ```shell
-$ git clone https://github.com/degumes/lp.git
+$ git clone https://github.com/itacirgabral/lp.git
 ```
 Para receber novas atualizações:
 ```shell
